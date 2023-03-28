@@ -44,8 +44,8 @@
                         <tr>
                           <td>{{$post->id}}</td>
                           <td>{{$post->title}}</td>
-                          <td><img src="{{'storage/'.$post->preview_image }}" alt="blog post"></td>
-                          
+                          <td><img class="w-20" style="width:25%" src="{{ asset('storage/'.$post->preview_image) }}" alt="blog post"></td>
+
                           <td class="text-center"><a href="#"><i class="fa-solid fa-eye"></i></a></td>
                           <td class="text-center">
                             <form action="{{ route('personal.liked.delete', $post->id) }}" method="POST">
@@ -64,7 +64,7 @@
                   <!-- /.card-body -->
                 </div>
               </div>
-         
+
           <!-- ./col -->
         </div>
         <!-- /.row -->

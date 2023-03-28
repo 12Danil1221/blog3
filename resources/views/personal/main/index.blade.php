@@ -1,6 +1,6 @@
  @extends('personal.layouts.main')
 
- @section('content')
+@section('content')
 
  <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
@@ -56,7 +56,7 @@
               <a href="#" class="small-box-footer">Подробнее<i class="fas fa-arrow-circle-right"></i></a>
             </div>
           </div>
-         
+
           <!-- ./col -->
         </div>
         <!-- /.row -->

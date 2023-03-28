@@ -33,8 +33,14 @@
   <!-- Navbar -->
   <nav class="main-header navbar navbar-expand navbar-white navbar-light">
     <div class="col-12 d-flex justify-content-between">
+
     <!-- Left navbar links -->
     <ul class="navbar-nav">
+        <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item ml-5"><a href="http://127.0.0.1:8000">Blog</a></li>
+            </ol>
+          </div>
       <li class="nav-item">
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
